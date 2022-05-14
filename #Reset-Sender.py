@@ -20,7 +20,7 @@ added = Fore.LIGHTWHITE_EX+"["+Fore.GREEN+"+"+Fore.LIGHTWHITE_EX+"] "
 ppp = '{'
 ppp1 = '}'
 
-ctypes.windll.kernel32.SetConsoleTitleW('#Rset-Sender - By @hmzoa')
+ctypes.windll.kernel32.SetConsoleTitleW('#Reset-Sender - By @hmzoa - V1.0')
 os.system('mode con: cols=129 lines=22')
 logohere = f"""
            {Fore.LIGHTMAGENTA_EX}   ██╗ ██╗ ██████╗ ███████╗███████╗███████╗████████╗   ███████╗███████╗███╗   ██╗██████╗ ███████╗██████╗ 
