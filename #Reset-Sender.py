@@ -82,7 +82,7 @@ def main():
         print(f'\n{annowns}Password Reset Request Fail , Please wait a few minutes before you try again ,Rate Limit reached . ')
         print(f'{infohash}Here Is the request respons from {Fore.LIGHTMAGENTA_EX}instagram{Fore.LIGHTWHITE_EX} : \n{Fore.LIGHTYELLOW_EX+req.text+Fore.LIGHTWHITE_EX}\n\n{redline}')
 
-        print(f'\n{Fore.LIGHTBLACK_EX}Enter to exit')
+        print(f'{Fore.LIGHTBLACK_EX}Enter to exit')
         input()
         exit(42069072)
         
