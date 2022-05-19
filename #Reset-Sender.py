@@ -38,7 +38,7 @@ logohere = f"""
 def main():
     print(logohere)
 
-    target = input(f'{inputed}Target without({Fore.LIGHTCYAN_EX}@{Fore.LIGHTWHITE_EX}) < {Fore.LIGHTGREEN_EX}user {Fore.LIGHTWHITE_EX}or {Fore.LIGHTGREEN_EX}email{Fore.LIGHTWHITE_EX} > : ')
+    target = input(f'{inputed}Target without({Fore.LIGHTCYAN_EX}@{Fore.LIGHTWHITE_EX}) < {Fore.LIGHTGREEN_EX}user {Fore.LIGHTWHITE_EX}or {Fore.LIGHTGREEN_EX}email{Fore.LIGHTWHITE_EX} > :{Fore.LIGHTYELLOW_EX} ')
     print('\n'+redline)
 
 
