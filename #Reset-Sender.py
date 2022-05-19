@@ -85,10 +85,21 @@ def main():
         print(f'\n\n{Fore.LIGHTBLACK_EX}Enter to exit')
         input()
         exit(42069072)
+        
+    elif "Sorry, we can't send you a link to reset your password. Please contact Instagram for help." in req.text:
+        print(f'\n{annowns}Password Reset Request Fail , maybe it an abandoned account . ')
+        print(f'{infohash}Here Is the request respons from {Fore.LIGHTMAGENTA_EX}instagram{Fore.LIGHTWHITE_EX} : \n{Fore.LIGHTYELLOW_EX+req.text+Fore.LIGHTWHITE_EX}\n\n{redline}')
+
+        print(f'\n\n{Fore.LIGHTBLACK_EX}Enter to exit')
+        input()
+        exit(42069072)
     else:
         responsjson = json.loads(req.text)
-        print(f"{sended}Reset Successfully Sended . check your email {responsjson}")
+        print(f"{sended}Reset Successfully Sended , check your email .")
+        
+        print(f'{infohash}Here Is the request respons from {Fore.LIGHTMAGENTA_EX}instagram{Fore.LIGHTWHITE_EX} : \n{Fore.LIGHTYELLOW_EX+req.text+Fore.LIGHTWHITE_EX}\n\n{redline}')
 
+        
         print(f'\n\n\n{Fore.LIGHTBLACK_EX}Enter to exit')
         input()
         exit(42069072)
