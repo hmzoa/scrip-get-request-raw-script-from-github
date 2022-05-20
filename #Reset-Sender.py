@@ -74,7 +74,7 @@ def main():
         print(f'\n{annowns}Password Reset Request Fail , There is no user such as {Fore.LIGHTRED_EX}@{target+Fore.LIGHTWHITE_EX}')
         print(f'{infohash}Here Is the request respons from {Fore.LIGHTMAGENTA_EX}instagram{Fore.LIGHTWHITE_EX} : {Fore.LIGHTRED_EX}{ppp}"message":"No users found","status":"fail"{ppp1}{Fore.LIGHTWHITE_EX}\n\n{redline}')
 
-        print(f'\n\n\n{Fore.LIGHTBLACK_EX}Enter to exit')
+        print(f'\n\n{Fore.LIGHTBLACK_EX}Enter to exit')
         input()
         exit(42069072)
 
