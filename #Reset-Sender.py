@@ -63,7 +63,7 @@ def main():
 
     if "obfuscated_email" in req.text:
         responsjson = json.loads(req.text)
-        print(f"{question}Obfuscated Email {responsjson['obfuscated_email']}\n{sended}Status: {Fore.LIGHTGREEN_EX}OK .")
+        print(f"{question}Obfuscated Email {responsjson['obfuscated_email']}.\n{sended}Status: {Fore.LIGHTGREEN_EX}OK{Fore.LIGHTWHITE_EX}.")
         print(f'{infohash}Here Is the request respons from {Fore.LIGHTMAGENTA_EX}instagram{Fore.LIGHTWHITE_EX} :\n{Fore.LIGHTYELLOW_EX+req.text}\n{redline}')
 
         print(f'\n{Fore.LIGHTBLACK_EX}Enter to exit')
