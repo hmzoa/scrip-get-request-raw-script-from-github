@@ -68,7 +68,7 @@ def main():
 
         print(f'\n{Fore.LIGHTBLACK_EX}Enter to exit')
         input()
-        exit(42069072)
+        exit()
 
     elif req.status_code == 404:
         print(f'\n{annowns}Password Reset Request Fail , There is no user such as {Fore.LIGHTRED_EX}@{target+Fore.LIGHTWHITE_EX}')
@@ -76,7 +76,7 @@ def main():
 
         print(f'\n\n{Fore.LIGHTBLACK_EX}Enter to exit')
         input()
-        exit(42069072)
+        exit()
 
     elif "Please wait a few minutes before you try again" in req.text:
         print(f'\n{annowns}Password Reset Request Fail , Please wait a few minutes before you try again ,Rate Limit reached . ')
@@ -84,7 +84,7 @@ def main():
 
         print(f'\n{Fore.LIGHTBLACK_EX}Enter to exit')
         input()
-        exit(42069072)
+        exit()
         
     elif "Sorry, we can't send you a link to reset your password. Please contact Instagram for help." in req.text:
         
@@ -93,7 +93,7 @@ def main():
 
         print(f'\n{Fore.LIGHTBLACK_EX}Enter to exit')
         input()
-        exit(42069072)
+        exit()
     else:
         responsjson = json.loads(req.text)
         print(f"{sended}Reset Successfully Sended , check your email .")
@@ -103,7 +103,7 @@ def main():
         
         print(f'\n\n\n{Fore.LIGHTBLACK_EX}Enter to exit')
         input()
-        exit(42069072)
+        exit()
 
 if __name__ == '__main__':
     main()
